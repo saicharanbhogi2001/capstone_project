@@ -31,11 +31,6 @@ app.get("/",(req,res)=>{
 app.use('/user',router1);
 app.use("/seller",router2)
 
-
-app.get("/loginseller",(req,res)=>{
-    res.sendFile(__dirname+"/pages/seller-login.html")
-});
-
 app.listen(3000,()=>{
     console.log("Server started!!");
 })
