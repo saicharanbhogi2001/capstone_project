@@ -1,0 +1,983 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+    
+<!-- index28:48-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>MobileSpace</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+    <!-- Material Design Iconic Font-V2.2.0 -->
+    <link rel="stylesheet" href="css/material-design-iconic-font.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Font Awesome Stars-->
+    <link rel="stylesheet" href="css/fontawesome-stars.css">
+    <!-- Meanmenu CSS -->
+    <link rel="stylesheet" href="css/meanmenu.css">
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- Slick Carousel CSS -->
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Jquery-ui CSS -->
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <!-- Venobox CSS -->
+    <link rel="stylesheet" href="css/venobox.css">
+    <!-- Nice Select CSS -->
+    <link rel="stylesheet" href="css/nice-select.css">
+    <!-- Magnific Popup CSS -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- Bootstrap V4.1.3 Fremwork CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Helper CSS -->
+    <link rel="stylesheet" href="css/helper.css">
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Modernizr js -->
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+    <!--[if lt IE 8]>
+		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
+        <!-- Begin Body Wrapper -->
+        <div class="body-wrapper">
+            <!-- Begin Header Area -->
+            <header>
+                <!-- Begin Header Top Area -->
+                <div class="header-top">
+                    <div class="container">
+                        <div class="row">
+                            <!-- Begin Header Top Left Area -->
+                            <div class="col-lg-3 col-md-4">
+                                <div class="header-top-left">
+                                    <ul class="phone-wrap">
+                                        <li><span>Telephone Enquiry:</span><a href="#">(+91)93 93 93 94 92</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Header Top Left Area End Here -->
+                            <!-- Begin Header Top Right Area -->
+                            <div class="col-lg-9 col-md-8">
+                                <div class="header-top-right">
+                                    <ul class="ht-menu">
+                                        <!-- Begin Setting Area -->
+                                        <li>
+                                            <div class="ht-setting-trigger"><span>Setting</span></div>
+                                            <div class="setting ht-setting">
+                                                <ul class="ht-setting-list">
+                                                    <li><a href="/user/userprofile">My Account</a></li>
+                                                    <li><a href="/user/myorders">My orders</a></li>
+                                                    <li><a href="/user/cart">My Cart</a></li>
+                                                    <li><a href="/user/checkout">Checkout</a></li>
+                                                    <li id="logout"><a href="/user/logout">LogOut</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <!-- Setting Area End Here -->
+                                        <!-- Begin Currency Area -->
+                                       
+                                        <!-- Currency Area End Here -->
+                                        <!-- Begin Language Area -->
+                                        <li>
+                                            <span class="language-selector-wrapper">Language :</span>
+                                            <div class="ht-language-trigger"><span>English</span></div>
+                                            <div class="language ht-language">
+                                                <ul class="ht-setting-list">
+                                                    <li class="active"><a href="#"><img src="images/menu/flag-icon/1.jpg" alt="">English</a></li>
+                                                    <li><a href="#"><img src="images/menu/flag-icon/2.jpg" alt="">Français</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <!-- Language Area End Here -->
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Header Top Right Area End Here -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Header Top Area End Here -->
+                <!-- Begin Header Middle Area -->
+                <div class="header-middle pl-sm-0 pr-sm-0 pl-xs-0 pr-xs-0">
+                    <div class="container">
+                        <div class="row">
+                            <!-- Begin Header Logo Area -->
+                            <div class="col-lg-3">
+                                <div class="logo pb-sm-30 pb-xs-30">
+                                    <a href="/user">
+                                        <img src="images/menu/logo/1.png" alt="" width="190" height="45">
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Header Logo Area End Here -->
+                            <!-- Begin Header Middle Right Area -->
+                            <div class="col-lg-9 pl-0 ml-sm-15 ml-xs-15">
+                                <!-- Begin Header Middle Searchbox Area -->
+                                <!--  -->
+                                <!-- Header Middle Searchbox Area End Here -->
+                                <!-- Begin Header Middle Right Area -->
+                                <div class="header-middle-right">
+                                    <ul class="hm-menu">
+                                        <!-- Begin Header Mini Cart Area -->
+                                        <li class="hm-minicart">
+                                            <div class="hm-minicart-trigger">
+                                                <span class="item-icon"></span>
+                                                <span class="item-text " id="amount1">
+                                                    <span class="cart-item-count" id="count"></span>
+                                            </div>
+                                            <span></span>
+                                            <div class="minicart" id="data">
+                                                <ul class="minicart-product-list">
+                                                </ul>
+                                                <p class="minicart-total">SUBTOTAL: <span id="amount1"></span></p>
+                                                <div class="minicart-button">
+                                                    <a href="/user/maincart" class="li-button li-button-fullwidth li-button-dark">
+                                                        <span>View Full Cart</span>
+                                                    </a>
+                                                    <a href="/user/checkout" class="li-button li-button-fullwidth">
+                                                        <span>Checkout</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <!-- Header Mini Cart Area End Here -->
+                                    </ul>
+                                </div>
+                                <!-- Header Middle Right Area End Here -->
+                            </div>
+                            <!-- Header Middle Right Area End Here -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Header Middle Area End Here -->
+                <!-- Begin Header Bottom Area -->
+                <div class="header-bottom header-sticky d-none d-lg-block d-xl-block">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <!-- Begin Header Bottom Menu Area -->
+                                <div class="hb-menu">
+                                    <nav>
+                                        <ul>
+                                            <li class="homec"><a href="/user">Home</a></li>
+                                            <li class="megamenu-holder"><a href="/user/shopcart">Shop</a>
+                                               
+                                            </li>
+                                            <li class="dropdown-holder"><a>Categories</a>
+                                                <ul class="hb-dropdown">
+                                                    <li class="sub-dropdown-holder"><a href="/user/shopcart">Mobiles</a>
+                                                        <ul class="hb-dropdown hb-sub-dropdown">
+                                                            <li><a href="/user/shopcart">Samsung</a></li>
+                                                            <li><a href="/user/shopcart">Apple</a></li>
+                                                            <li><a href="/user/shopcart">Realme</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="sub-dropdown-holder"><a href="/user/shopcart">HeadPhones</a>
+                                                        <ul class="hb-dropdown hb-sub-dropdown">
+                                                            <li><a href="/user/shopcart">Wired</a></li>
+                                                            <li><a href="/user/shopcart">In Ear Wireless</a></li>
+                                                            <li><a href="/user/shopcart">Ture Wireless</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="sub-dropdown-holder"><a href="/user/shopcart">Smartwatches</a>
+                                                        <ul class="hb-dropdown hb-sub-dropdown">
+                                                            <li><a href="/user/shopcart">Watches</a></li>
+                                                            <li><a href="/user/shopcart">Bands</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="sub-dropdown-holder"><a href="/user/shopcart">Accessories</a>
+                                                        <ul class="hb-dropdown hb-sub-dropdown">
+                                                            <li><a href="/user/shopcart">Screen Gaurds</a></li>
+                                                            <li><a href="/user/shopcart">Mobile Gaurds</a></li>
+                                                            <li><a href="/user/shopcart">Camera Protectors</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                           
+                                            <li><a href="/user/about">About Us</a></li>
+                                            <li><a href="/user/contact">Contact</a></li>
+                                           
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <!-- Header Bottom Menu Area End Here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Header Bottom Area End Here -->
+                <!-- Begin Mobile Menu Area -->
+                <div class="mobile-menu-area d-lg-none d-xl-none col-12">
+                    <div class="container"> 
+                        <div class="row">
+                            <div class="mobile-menu">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Mobile Menu Area End Here -->
+            </header>
+            <!-- Header Area End Here -->
+            <!-- Slider With Banner Area End Here -->
+            <!-- Begin Product Area -->
+            <div class="product-area pt-60 pb-50">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="li-product-tab">
+                                <ul class="nav li-product-menu">
+                                   <li><a class="active" data-toggle="tab" href="#li-new-product"><span>New Arrival</span></a></li>
+                                </ul>               
+                            </div>
+                            <!-- Begin Li's Tab Menu Content Area -->
+                        </div>
+                    </div>
+                    <div class="tab-content">
+                        <div id="li-new-product" class="tab-pane active show" role="tabpanel">
+                            <div class="row">
+                                <div class="product-active owl-carousel">
+                                    <div class="col-lg-12">
+                                        <!-- single-product-wrap start -->
+                                        <div class="single-product-wrap">
+                                            <div class="product-image">
+                                                <a href="/user/product">
+                                                    <img src="images/product/large-size/apple-iphone-11pro.jpg" alt="Li's Product Image" style="height: 200px; width: 200px;">
+                                                </a>
+                                                <span class="sticker">New</span>
+                                            </div>
+                                            <div class="product_desc">
+                                                <div class="product_desc_info">
+                                                    <div class="product-review">
+                                                        <h5 class="manufacturer">
+                                                            <a href="/user/shopcart">iphone 11Pro</a>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- single-product-wrap end -->
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <!-- single-product-wrap start -->
+                                        <div class="single-product-wrap">
+                                            <div class="product-image">
+                                                <a href="/user/product">
+                                                    <img src="images/product/large-size/galaxy-A52.jpg" alt="Li's Product Image" style="height: 200px; width: 200px;">
+                                                </a>
+                                                <span class="sticker">New</span>
+                                            </div>
+                                            <div class="product_desc">
+                                                <div class="product_desc_info">
+                                                    <div class="product-review">
+                                                        <h5 class="manufacturer">
+                                                            <a href="/user/shopcart">Samsang Galaxy A52</a>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- single-product-wrap end -->
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <!-- single-product-wrap start -->
+                                        <div class="single-product-wrap">
+                                            <div class="product-image">
+                                                <a href="/user/product">
+                                                    <img src="images/product/large-size/galaxy-A53.jpg" alt="Li's Product Image" style="height: 200px; width: 200px;">
+                                                </a>
+                                                <span class="sticker">New</span>
+                                            </div>
+                                            <div class="product_desc">
+                                                <div class="product_desc_info">
+                                                    <div class="product-review">
+                                                        <h5 class="manufacturer">
+                                                            <a href="/user/shopcart">Samsang Galaxy A53</a>
+                                                        </h5>
+                                                        <div class="rating-box">
+                                                            <ul class="rating">
+                                                                <li><i class="fa fa-star-o"></i></li>
+                                                                <li><i class="fa fa-star-o"></i></li>
+                                                                <li><i class="fa fa-star-o"></i></li>
+                                                                <li class="no-star"><i class="fa fa-star-o"></i></li>
+                                                                <li class="no-star"><i class="fa fa-star-o"></i></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <!-- single-product-wrap end -->
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <!-- single-product-wrap start -->
+                                        <div class="single-product-wrap">
+                                            <div class="product-image">
+                                                <a href="/user/product">
+                                                    <img src="images/product/large-size/Realme-8s-5G.jpg" alt="Li's Product Image" style="height: 200px; width: 200px;">
+                                                </a>
+                                                <span class="sticker">New</span>
+                                            </div>
+                                            <div class="product_desc">
+                                                <div class="product_desc_info">
+                                                    <div class="product-review">
+                                                        <h5 class="manufacturer">
+                                                            <a href="/user/shopcart">Realme 8s 5G</a>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- single-product-wrap end -->
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <!-- single-product-wrap start -->
+                                        <div class="single-product-wrap">
+                                            <div class="product-image">
+                                                <a href="/user/product">
+                                                    <img src="images/product/large-size/realme-buds-1.jpg" alt="Li's Product Image" style="height: 200px; width: 200px;">
+                                                </a>
+                                                <span class="sticker">New</span>
+                                            </div>
+                                            <div class="product_desc">
+                                                <div class="product_desc_info">
+                                                    <div class="product-review">
+                                                        <h5 class="manufacturer">
+                                                            <a href="/user/shopcart">Realme-buds 1</a>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- single-product-wrap end -->
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <!-- single-product-wrap start -->
+                                        <div class="single-product-wrap">
+                                            <div class="product-image">
+                                                <a href="/user/product">
+                                                    <img src="images/product/large-size/realme-buds-2.jpg" alt="Li's Product Image" style="height: 200px; width: 200px;">
+                                                </a>
+                                                <span class="sticker">New</span>
+                                            </div>
+                                            <div class="product_desc">
+                                                <div class="product_desc_info">
+                                                    <div class="product-review">
+                                                        <h5 class="manufacturer">
+                                                            <a href="/user/shopcart">Realme buds 2</a>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- single-product-wrap end -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            <!-- Begin Li's Laptop Product Area -->
+            <section class="product-area li-laptop-product pt-60 pb-45">
+                <div class="container">
+                    <div class="row">
+                        <!-- Begin Li's Section Area -->
+                        <div class="col-lg-12">
+                            <div class="li-section-title">
+                                <h2>
+                                    <span>Best Seller</span>
+                                </h2>
+                            </div>
+                            <div class="row">
+                                <div class="product-active owl-carousel">
+                                    <div class="col-lg-12">
+                                        <!-- single-product-wrap start -->
+                                        <div class="single-product-wrap">
+                                            <div class="product-image">
+                                                <a href="/user/product">
+                                                    <img src="images/product/large-size/boat-bassheads-100.jpg" alt="Li's Product Image">
+                                                </a>
+                                                <span class="sticker">New</span>
+                                            </div>
+                                            <div class="product_desc">
+                                                <div class="product_desc_info">
+                                                    <div class="product-review">
+                                                        <h5 class="manufacturer">
+                                                            <a href="/user/shopcart">Boat Bassheads 100</a>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- single-product-wrap end -->
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <!-- single-product-wrap start -->
+                                        <div class="single-product-wrap">
+                                            <div class="product-image">
+                                                <a href="/user/product">
+                                                    <img src="images/product/large-size/boat-bassheads-242.jpg" alt="Li's Product Image" style="height: 200px; width: 200px;">
+                                                </a>
+                                                <span class="sticker">New</span>
+                                            </div>
+                                            <div class="product_desc">
+                                                <div class="product_desc_info">
+                                                    <div class="product-review">
+                                                        <h5 class="manufacturer">
+                                                            <a href="/user/shopcart">Boat Bassheads 242</a>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- single-product-wrap end -->
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <!-- single-product-wrap start -->
+                                        <div class="single-product-wrap">
+                                            <div class="product-image">
+                                                <a href="/user/product">
+                                                    <img src="images/product/large-size/realme-buds-1.jpg" alt="Li's Product Image" style="height: 200px; width: 200px;">
+                                                </a>
+                                                <span class="sticker">New</span>
+                                            </div>
+                                            <div class="product_desc">
+                                                <div class="product_desc_info">
+                                                    <div class="product-review">
+                                                        <h5 class="manufacturer">
+                                                            <a href="/user/shopcart">Realme Buds 1</a>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- single-product-wrap end -->
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <!-- single-product-wrap start -->
+                                        <div class="single-product-wrap">
+                                            <div class="product-image">
+                                                <a href="/user/product">
+                                                    <img src="images/product/large-size/apple-airpods-1.jpg" alt="Li's Product Image" style="height: 200px; width: 200px;">
+                                                </a>
+                                                <span class="sticker">New</span>
+                                            </div>
+                                            <div class="product_desc">
+                                                <div class="product_desc_info">
+                                                    <div class="product-review">
+                                                        <h5 class="manufacturer">
+                                                            <a href="/user/shopcart">Apple Airpods 1</a>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- single-product-wrap end -->
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <!-- single-product-wrap start -->
+                                        <div class="single-product-wrap">
+                                            <div class="product-image">
+                                                <a href="/user/product">
+                                                    <img src="images/product/large-size/apple-airpods-2.jpg" alt="Li's Product Image" style="height: 200px; width: 200px;">
+                                                </a>
+                                                <span class="sticker">New</span>
+                                            </div>
+                                            <div class="product_desc">
+                                                <div class="product_desc_info">
+                                                    <div class="product-review">
+                                                        <h5 class="manufacturer">
+                                                            <a href="/user/shopcart">Apple Airpods 2</a>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- single-product-wrap end -->
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <!-- single-product-wrap start -->
+                                        <div class="single-product-wrap">
+                                            <div class="product-image">
+                                                <a href="/user/product">
+                                                    <img src="images/product/large-size/cover1.jpg" alt="Li's Product Image" style="height: 200px; width: 200px;">
+                                                </a>
+                                                <span class="sticker">New</span>
+                                            </div>
+                                            <div class="product_desc">
+                                                <div class="product_desc_info">
+                                                    <div class="product-review">
+                                                        <h5 class="manufacturer">
+                                                            <a href="/user/shopcart">Smart Device</a>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- single-product-wrap end -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Li's Section Area End Here -->
+                    </div>
+                </div>
+            </section>
+            <!-- Li's Laptop Product Area End Here -->
+            <!-- Begin Li's TV & Audio Product Area -->
+            <section class="product-area li-laptop-product li-tv-audio-product pb-45">
+                <div class="container">
+                    <div class="row">
+                        <!-- Begin Li's Section Area -->
+                        <div class="col-lg-12">
+                            <div class="li-section-title">
+                                <h2>
+                                    <span>Watches</span>
+                                </h2>
+                            </div>
+                            <div class="row">
+                                <div class="product-active owl-carousel">
+                                    <div class="col-lg-12">
+                                        <!-- single-product-wrap start -->
+                                        <div class="single-product-wrap">
+                                            <div class="product-image">
+                                                <a href="/user/product">
+                                                    <img src="images/product/large-size/wat.jpg" alt="Li's Product Image" style="height: 200px; width: 200px;">
+                                                </a>
+                                                <span class="sticker">New</span>
+                                            </div>
+                                            <div class="product_desc">
+                                                <div class="product_desc_info">
+                                                    <div class="product-review">
+                                                        <h5 class="manufacturer">
+                                                            <a href="/user/shopcart">Noise Smart Watch</a>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- single-product-wrap end -->
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <!-- single-product-wrap start -->
+                                        <div class="single-product-wrap">
+                                            <div class="product-image">
+                                                <a href="/user/product">
+                                                    <img src="images/product/large-size/wat1.jpg" alt="Li's Product Image" style="height: 200px; width: 200px;">
+                                                </a>
+                                                <span class="sticker">New</span>
+                                            </div>
+                                            <div class="product_desc">
+                                                <div class="product_desc_info">
+                                                    <div class="product-review">
+                                                        <h5 class="manufacturer">
+                                                            <a href="/user/shopcart">Fossil Smart Watch</a>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- single-product-wrap end -->
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <!-- single-product-wrap start -->
+                                        <div class="single-product-wrap">
+                                            <div class="product-image">
+                                                <a href="/user/product">
+                                                    <img src="images/product/large-size/wat2.jpg" alt="Li's Product Image" style="height: 200px; width: 200px;">
+                                                </a>
+                                                <span class="sticker">New</span>
+                                            </div>
+                                            <div class="product_desc">
+                                                <div class="product_desc_info">
+                                                    <div class="product-review">
+                                                        <h5 class="manufacturer">
+                                                            <a href="/user/shopcart">Apple Smart Watch</a>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- single-product-wrap end -->
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <!-- single-product-wrap start -->
+                                        <div class="single-product-wrap">
+                                            <div class="product-image">
+                                                <a href="/user/product">
+                                                    <img src="images/product/large-size/wat3.jpg" alt="Li's Product Image" style="height: 200px; width: 200px;">
+                                                </a>
+                                                <span class="sticker">New</span>
+                                            </div>
+                                            <div class="product_desc">
+                                                <div class="product_desc_info">
+                                                    <div class="product-review">
+                                                        <h5 class="manufacturer">
+                                                            <a href="/user/shopcart">Fastrack Smart Watch</a>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- single-product-wrap end -->
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <!-- single-product-wrap start -->
+                                        <div class="single-product-wrap">
+                                            <div class="product-image">
+                                                <a href="/user/product">
+                                                    <img src="images/product/large-size/wat4.jpg" alt="Li's Product Image" style="height: 200px; width: 200px;">
+                                                </a>
+                                                <span class="sticker">New</span>
+                                            </div>
+                                            <div class="product_desc">
+                                                <div class="product_desc_info">
+                                                    <div class="product-review">
+                                                        <h5 class="manufacturer">
+                                                            <a href="/user/shopcart">Realme Smart Watch</a>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- single-product-wrap end -->
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <!-- single-product-wrap start -->
+                                        <div class="single-product-wrap">
+                                            <div class="product-image">
+                                                <a href="/user/product">
+                                                    <img src="images/product/large-size/wat5.jpg" alt="Li's Product Image" style="height: 200px; width: 200px;">
+                                                </a>
+                                                <span class="sticker">New</span>
+                                            </div>
+                                            <div class="product_desc">
+                                                <div class="product_desc_info">
+                                                    <div class="product-review">
+                                                        <h5 class="manufacturer">
+                                                            <a href="/user/shopcart">Boat Smart Watch</a>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- single-product-wrap end -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Li's Section Area End Here -->
+                    </div>
+                </div>
+            </section>
+            <!-- Li's TV & Audio Product Area End Here -->
+            <!-- Begin Li's Static Home Area -->
+            
+            <!-- Li's Static Home Area End Here -->
+            
+            <!-- Begin Li's Trendding Products Area -->
+            
+            <!-- Li's Trendding Products Area End Here -->
+            <!-- Begin Footer Area -->
+            <div class="footer">
+                <!-- Begin Footer Static Top Area -->
+                <div class="footer-static-top">
+                    <div class="container">
+                        <!-- Begin Footer Shipping Area -->
+                        <div class="footer-shipping pt-60 pb-55 pb-xs-25">
+                            <div class="row">
+                                <!-- Begin Li's Shipping Inner Box Area -->
+                                <div class="col-lg-3 col-md-6 col-sm-6 pb-sm-55 pb-xs-55">
+                                    <div class="li-shipping-inner-box">
+                                        <div class="shipping-icon">
+                                            <img src="images/shipping-icon/1.png" alt="Shipping Icon">
+                                        </div>
+                                        <div class="shipping-text">
+                                            <h2>Free Delivery</h2>
+                                            <p>And free returns. See checkout for delivery dates.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Li's Shipping Inner Box Area End Here -->
+                                <!-- Begin Li's Shipping Inner Box Area -->
+                                <div class="col-lg-3 col-md-6 col-sm-6 pb-sm-55 pb-xs-55">
+                                    <div class="li-shipping-inner-box">
+                                        <div class="shipping-icon">
+                                            <img src="images/shipping-icon/2.png" alt="Shipping Icon">
+                                        </div>
+                                        <div class="shipping-text">
+                                            <h2>Safe Payment</h2>
+                                            <p>Pay with the world's most popular and secure payment methods.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Li's Shipping Inner Box Area End Here -->
+                                <!-- Begin Li's Shipping Inner Box Area -->
+                                <div class="col-lg-3 col-md-6 col-sm-6 pb-xs-30">
+                                    <div class="li-shipping-inner-box">
+                                        <div class="shipping-icon">
+                                            <img src="images/shipping-icon/3.png" alt="Shipping Icon">
+                                        </div>
+                                        <div class="shipping-text">
+                                            <h2>Shop with Confidence</h2>
+                                            <p>Our Buyer Protection covers your purchasefrom click to delivery.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Li's Shipping Inner Box Area End Here -->
+                                <!-- Begin Li's Shipping Inner Box Area -->
+                                <div class="col-lg-3 col-md-6 col-sm-6 pb-xs-30">
+                                    <div class="li-shipping-inner-box">
+                                        <div class="shipping-icon">
+                                            <img src="images/shipping-icon/4.png" alt="Shipping Icon">
+                                        </div>
+                                        <div class="shipping-text">
+                                            <h2>24/7 Help Center</h2>
+                                            <p>Have a question? Call a Specialist or chat online.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Li's Shipping Inner Box Area End Here -->
+                            </div>
+                        </div>
+                        <!-- Footer Shipping Area End Here -->
+                    </div>
+                </div>
+                <!-- Footer Static Top Area End Here -->
+                <!-- Begin Footer Static Middle Area -->
+                <div class="footer-static-middle">
+                    <div class="container">
+                        <div class="footer-logo-wrap pt-50 pb-35">
+                            <div class="row">
+                                <!-- Begin Footer Logo Area -->
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="footer-logo">
+                                       
+                                        <p class="info">
+                                            We are the students of HERO VIRED from Aditya Engineering college that creat this website.
+                                        </p>
+                                    </div>
+                                    <ul class="des">
+                                       
+                                        <li>
+                                            <span>Phone: </span>
+                                            <a href="#">(+91)93 93 93 94 92</a>
+                                        </li>
+                                        <li>
+                                            <span>Email: </span>
+                                            <a href="">mobilespace2022@gmail.com</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- Footer Logo Area End Here -->
+                                
+                <!-- Begin Footer Static Bottom Area -->
+                <div class="footer-static-bottom pt-55 pb-55">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                
+                                <!-- Begin Footer Payment Area -->
+                                <div class="copyright text-center">
+                                    <a href="#">
+                                        <img src="images/payment/1.png" alt="">
+                                    </a>
+                                </div>
+                                <!-- Footer Payment Area End Here -->
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer Static Bottom Area End Here -->
+            </div>
+            <!-- Footer Area End Here -->
+            <!-- Begin Quick View | Modal Area -->
+            <div class="modal fade modal-wrapper" id="exampleModalCenter" >
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <div class="modal-inner-area row">
+                                <div class="col-lg-5 col-md-6 col-sm-6">
+                                   <!-- Product Details Left -->
+                                    <div class="product-details-left">
+                                        <div class="product-details-images slider-navigation-1">
+                                            <div class="lg-image">
+                                                <img src="images/product/large-size/1.jpg" alt="product image">
+                                            </div>
+                                            <div class="lg-image">
+                                                <img src="images/product/large-size/2.jpg" alt="product image">
+                                            </div>
+                                            <div class="lg-image">
+                                                <img src="images/product/large-size/3.jpg" alt="product image">
+                                            </div>
+                                            <div class="lg-image">
+                                                <img src="images/product/large-size/4.jpg" alt="product image">
+                                            </div>
+                                            <div class="lg-image">
+                                                <img src="images/product/large-size/5.jpg" alt="product image">
+                                            </div>
+                                            <div class="lg-image">
+                                                <img src="images/product/large-size/6.jpg" alt="product image">
+                                            </div>
+                                        </div>
+                                        <div class="product-details-thumbs slider-thumbs-1">                                        
+                                            <div class="sm-image"><img src="images/product/small-size/1.jpg" alt="product image thumb"></div>
+                                            <div class="sm-image"><img src="images/product/small-size/2.jpg" alt="product image thumb"></div>
+                                            <div class="sm-image"><img src="images/product/small-size/3.jpg" alt="product image thumb"></div>
+                                            <div class="sm-image"><img src="images/product/small-size/4.jpg" alt="product image thumb"></div>
+                                            <div class="sm-image"><img src="images/product/small-size/5.jpg" alt="product image thumb"></div>
+                                            <div class="sm-image"><img src="images/product/small-size/6.jpg" alt="product image thumb"></div>
+                                        </div>
+                                    </div>
+                                    <!--// Product Details Left -->
+                                </div>
+
+                                <div class="col-lg-7 col-md-6 col-sm-6">
+                                    <div class="product-details-view-content pt-60">
+                                        <div class="product-info">
+                                            <h2>Today is a good day Framed poster</h2>
+                                            <span class="product-details-ref">Reference: demo_15</span>
+                                            <div class="rating-box pt-20">
+                                                <ul class="rating rating-with-review-item">
+                                                    <li><i class="fa fa-star-o"></i></li>
+                                                    <li><i class="fa fa-star-o"></i></li>
+                                                    <li><i class="fa fa-star-o"></i></li>
+                                                    <li class="no-star"><i class="fa fa-star-o"></i></li>
+                                                    <li class="no-star"><i class="fa fa-star-o"></i></li>
+                                                    <li class="review-item"><a href="#">Read Review</a></li>
+                                                    <li class="review-item"><a href="#">Write Review</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="price-box pt-20">
+                                                <span class="new-price new-price-2">$57.98</span>
+                                            </div>
+                                            <div class="product-desc">
+                                                <p>
+                                                    <span>100% cotton double printed dress. Black and white striped top and orange high waisted skater skirt bottom. Lorem ipsum dolor sit amet, consectetur adipisicing elit. quibusdam corporis, earum facilis et nostrum dolorum accusamus similique eveniet quia pariatur.
+                                                    </span>
+                                                </p>
+                                            </div>
+                                            <div class="product-variants">
+                                                <div class="produt-variants-size">
+                                                    <label>Dimension</label>
+                                                    <select class="nice-select">
+                                                        <option value="1" title="S" selected="selected">40x60cm</option>
+                                                        <option value="2" title="M">60x90cm</option>
+                                                        <option value="3" title="L">80x120cm</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="single-add-to-cart">
+                                                <form action="#" class="cart-quantity">
+                                                    <div class="quantity">
+                                                        <label>Quantity</label>
+                                                        <div class="cart-plus-minus">
+                                                            <input class="cart-plus-minus-box" value="1" type="text">
+                                                            <div class="dec qtybutton"><i class="fa fa-angle-down"></i></div>
+                                                            <div class="inc qtybutton"><i class="fa fa-angle-up"></i></div>
+                                                        </div>
+                                                    </div>
+                                                    <button class="add-to-cart" type="submit">Add to cart</button>
+                                                </form>
+                                            </div>
+                                            <div class="product-additional-info pt-25">
+                                                <div class="product-social-sharing pt-25">
+                                                    <ul>
+                                                        <li class="facebook"><a href="#"><i class="fa fa-facebook"></i>Facebook</a></li>
+                                                        <li class="twitter"><a href="#"><i class="fa fa-twitter"></i>Twitter</a></li>
+                                                        <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i>Google +</a></li>
+                                                        <li class="instagram"><a href="#"><i class="fa fa-instagram"></i>Instagram</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+            <!-- Quick View | Modal Area End Here -->
+        </div>
+        <!-- Body Wrapper End Here -->
+        <!-- jQuery-V1.12.4 -->
+
+    </body>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/vendor/popper.min.js"></script>
+    <!-- Bootstrap V4.1.3 Fremwork js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Ajax Mail js -->
+    <script src="js/ajax-mail.js"></script>
+    <!-- Meanmenu js -->
+    <script src="js/jquery.meanmenu.min.js"></script>
+    <!-- Wow.min js -->
+    <script src="js/wow.min.js"></script>
+    <!-- Slick Carousel js -->
+    <script src="js/slick.min.js"></script>
+    <!-- Owl Carousel-2 js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- Magnific popup js -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <!-- Isotope js -->
+    <script src="js/isotope.pkgd.min.js"></script>
+    <!-- Imagesloaded js -->
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <!-- Mixitup js -->
+    <script src="js/jquery.mixitup.min.js"></script>
+    <!-- Countdown -->
+    <script src="js/jquery.countdown.min.js"></script>
+    <!-- Counterup -->
+    <script src="js/jquery.counterup.min.js"></script>
+    <!-- Waypoints -->
+    <script src="js/waypoints.min.js"></script>
+    <!-- Barrating -->
+    <script src="js/jquery.barrating.min.js"></script>
+    <!-- Jquery-ui -->
+    <script src="js/jquery-ui.min.js"></script>
+    <!-- Venobox -->
+    <script src="js/venobox.min.js"></script>
+    <!-- Nice Select js -->
+    <script src="js/jquery.nice-select.min.js"></script>
+    <!-- ScrollUp js -->
+    <script src="js/scrollUp.min.js"></script>
+    <!-- Main/Activator js -->
+    <script src="js/main.js"></script>
+    <script>
+        //cart data
+        fetch('/user/cartdata')
+            .then(response => response.json())
+            .then(data=>{
+                var amount=0;
+                for(var i=0;i<data.length;i++){
+                    var variable = '' + 
+                    '<li>' + 
+                    '<a href="/user/product" class="minicart-product-image">' + 
+                    '    <img src="images/product/large-size/'+data[i].images+'" alt="cart products" style="height:50px; width:50px;">' + 
+                    '</a>' + 
+                    '<div class="minicart-product-details">' + 
+                    '    <h6><a href="/user/product">'+data[i].product_name+'</a></h6>' + 
+                    '    <span>'+data[i].price+'</span>' + 
+                    '</div>';
+                    var div = document.getElementById('data')
+                    div.insertAdjacentHTML( 'afterbegin', variable );
+                    amount=amount+data[i].price
+                }
+                document.getElementById("amount1").innerHTML=amount;
+            });
+            fetch()
+    </script>
+</html>
